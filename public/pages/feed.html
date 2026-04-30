@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed - Pinpinpin</title>
+    <link rel="stylesheet" href="../css/feed.css">
+    <link rel="icon" href="" type="image/png">
+</head>
+<body>
+    <div class="navbar">
+        <h2>Pinpinpin</h2>
+        <button class="logout" onclick="logout()">Logout</button>
+    </div>
+
+    <div class="post-form">
+        <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+        <button onclick="createPost()">Post</button>
+    </div>
+
+    <div class="post-container" id="post-list"></div>
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/feed.js"></script>
+    
+</body>
+</html>
